@@ -19,7 +19,7 @@ const Home = () => {
 	}, []);
 
 	return (
-		<div className={`flex ${isMobile ? 'flex-col' : 'sm:flex-row'} h-[95vh] rounded-lg overflow-hidden bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-lg overflow-y-scroll`}>
+		<div className={`flex ${isMobile ? 'flex-col' : 'sm:flex-row'} h-[95vh] rounded-lg overflow-hidden bg-gray-900 bg-clip-padding backdrop-filter backdrop-blur-lg overflow-y-scroll scrollbar-hidden`}>
 			<Sidebar />
 			<MessageContainer />
 		</div>
