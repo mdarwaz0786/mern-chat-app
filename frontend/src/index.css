@@ -62,11 +62,3 @@ body {
 		transform: translate3d(4px, 0, 0);
 	}
 }
-
-
-@media (max-width: 768px) {
-	.scrollbar-hidden {
-		height: 100%;
-		width: 100%;
-	}
-}
